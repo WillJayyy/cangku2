@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>初始vue</title>
+ <script src="./vue.js"></script>
+    </head>
+    <body>
+    <div id="root">
+    	<h1>hellodao {{name}}</h1>
+        <h1>指令语法</h1>
+        <a :href="url">点我去百度</a>
+    	
+    </div>
+		 <script type="text/javascript" >
+		 const x=new Vue({
+		 el:"#root",
+		 data:{
+		 name:"尚硅谷hehe",
+         school:{
+            url:"http://www.baidu.com"
+         }
+         
+		 }
+
+		 })
+		 </script>
+    </body>
+</html>
